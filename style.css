@@ -1,0 +1,109 @@
+/*CSS page test2.html*/
+h1
+{
+    text-align: center;
+}
+
+.nom
+{
+    color: darkgoldenrod;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+	font-size: 40px;
+	opacity: 0.9;
+	padding: 6px;
+	border: 4px darkgoldenrod solid;
+	border-bottom: 4px double;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px darkgoldenrod;
+	text-shadow: 1px 1px 2px darkgoldenrod;
+}
+
+h2
+{
+	color: darkgoldenrod;
+    text-align: center;
+}
+h2:hover
+{
+	text-decoration: underline;
+}
+
+.auteur
+{
+    font-style: italic;
+    text-align:justify
+}
+
+.email:hover
+{
+	color:darkgoldenrod
+}
+
+h3
+{
+    color:royalblue;
+    font-size:x-large;
+}
+
+h4
+{
+    color:royalblue;
+    font-size:larger;
+}
+
+*
+{
+	background-color: powderblue;
+}
+
+.flex-container
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.entete
+{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+.em
+{
+	color: darkgoldenrod;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.deco
+{
+	background-image: url("images/texturenom.webp");
+}
+
+
+.profil
+{
+	text-decoration: underline;
+}
+
+aside
+{
+	display: flex;
+	justify-content: center;
+}
+
+	font-size: 1.5em;
+	text-decoration: underline;
+
+.lien
+{
+	color: royalblue;
+	text-align: center;
+}
+
+.pageweb
+{
+	opacity: 0.6;
+}
