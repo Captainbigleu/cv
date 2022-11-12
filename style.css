@@ -30,15 +30,61 @@ h2:hover
 	text-decoration: underline;
 }
 
+#headcontainer
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.jiddu
+{
+	width: 39%;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: darkgoldenrod;
+	border: 3px darkgoldenrod groove;
+	border-radius: 20px;
+}
+
 .auteur
 {
     font-style: italic;
     text-align:justify
 }
 
+#upcontainer
+{
+	display:flex;
+	justify-content: space-between;
+}
+
 .email:hover
 {
 	color:darkgoldenrod
+}
+
+h3, h4
+{
+	text-decoration: underline;
+}
+
+.experience
+{
+	width: 80%
+}
+.banzai
+{
+	width: 43%;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin: auto;
+	border: 3px royalblue groove;
+	border-radius: 20px;
+}
+
+article
+{
+	background-color: #FFFFFF;
 }
 
 h3
@@ -54,9 +100,6 @@ h4
 }
 
 *
-{
-	background-color: powderblue;
-}
 
 .flex-container
 {
