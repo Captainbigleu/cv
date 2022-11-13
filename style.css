@@ -1,4 +1,16 @@
 /*CSS page test2.html*/
+#headcontainer
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: powderblue;
+}
+
+.entete
+{
+	margin: auto;
+}
+
 h1
 {
     text-align: center;
@@ -30,12 +42,6 @@ h2:hover
 	text-decoration: underline;
 }
 
-#headcontainer
-{
-	display: flex;
-	justify-content: space-between;
-}
-
 .jiddu
 {
 	width: 39%;
@@ -44,6 +50,7 @@ h2:hover
 	background-color: darkgoldenrod;
 	border: 3px darkgoldenrod groove;
 	border-radius: 20px;
+	margin: auto;
 }
 
 .auteur
@@ -61,6 +68,11 @@ h2:hover
 .email:hover
 {
 	color:darkgoldenrod
+}
+
+.middlecontainer
+{
+	display: flex;
 }
 
 h3, h4
@@ -105,12 +117,6 @@ h4
 {
 	display: flex;
 	justify-content: space-around;
-}
-
-.entete
-{
-	color: darkgoldenrod;
-	text-decoration: none;
 }
 
 .em
