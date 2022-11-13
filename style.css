@@ -1,4 +1,6 @@
 /*CSS page test2.html*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #headcontainer
 {
 	display: flex;
@@ -78,6 +80,7 @@ h2:hover
 h3, h4
 {
 	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
 }
 
 .experience
